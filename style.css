@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.container{
+    height: auto;
+    max-width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    box-shadow: 0 0 4px 6px green;
+    display: flex;
+    padding: 5px;
+    /* padding-bottom: 10px; */
+    flex-direction: column;
+    background-color: #e6e3e3;
+}
+.container div h1{
+    color: green;
+    font-weight: 600;
+    text-decoration: underline;
+}
+form{
+    display: flex;
+    min-width: 200px;
+    flex-direction: column;
+    color: green;
+    font-weight: 600;
+}
+
+form input{
+    color: green;
+    font-weight: 400;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+    padding: 2px;
+    margin: 3px;
+    font-size: 17px;
+}
+form button{
+    color: green;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.output{
+    width: 94%;
+    /* height: 35vh; */
+    /* background-color: aqua; */
+    display: flex;
+    box-shadow: 0 0 8px 3px black;
+
+}
+.output .output-child  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.output-child div{
+    height: 210px;
+    width: 220px;
+    /* border: 1px solid green; */
+    box-shadow: 0 0 5px 4px green;
+    margin: 10px;
+    background-color: #e6e3e3;
+}
+.task-card{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+}
+.task-card button{
+    display: inline;
+}
+
+.done-btn{
+    background-color: green;
+    color: #e6e3e3;
+    padding: 5px 0px 5px 0px;
+    font-weight: 600;
+    /* border: none; */
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.remove-btn{
+    background-color: red;
+    padding: 5px 0px 5px 0px;
+    border-radius: 50px;
+
+margin-top: 10px;
+cursor: pointer;
+    font-weight: 600;
+    color: #e6e3e3;
+}
